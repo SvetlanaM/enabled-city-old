@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '!$1fjq#fq53!3$28^90_y13vs%5-%brn(7#-4(90_+$*v$-b83'
+SECRET_KEY = env(key)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -121,8 +121,6 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-# Make this unique, and don't share it with anybody.
-SECRET_KEY = 'oj*de9xjb@x8vl8!=alu0qqjew4$q^*4*%ib$@hqths6ak(b&2'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (

@@ -1,2 +1,2 @@
 #setup forsquare API
-foursquare_token = 'UPTDPXONO1BBJCM53FQ3HYFFBZ5MW5HG4NUQYYE0XCDNBX5I'
+foursquare_token = env('FOURSQUARE_API')
