@@ -1,4 +1,4 @@
-# EnabledCity - readme by Svetlana Margetova #
+# EnabledCity #
 
 With us, you never see the city the same way.
 
